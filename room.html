@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sala - Imagem & Ação</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topbar">
+    <div class="topbar-left">
+      <h1>🎨 Imagem & Ação</h1>
+      <div class="room-code-display">
+        Código: <strong id="roomCode">----</strong>
+        <button id="copyCodeBtn" class="btn-secondary">📋 Copiar</button>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div id="gameStatus" class="game-status">Aguardando jogadores...</div>
+    </div>
+  </div>
+
+  <div class="room-container">
+    <!-- COLUNA ESQUERDA: Equipes + Tabuleiro + Histórico -->
+    <div class="left-column">
+      <!-- Equipes -->
+      <div class="teams-section card">
+        <h2>🏆 Equipes</h2>
+        <div id="teamsList"></div>
+      </div>
+
+      <!-- Tabuleiro -->
+      <div class="board-section card">
+        <h2>🎲 Tabuleiro (30 Casas)</h2>
+        <div id="boardGrid"></div>
+      </div>
+
+      <!-- Histórico -->
+      <div class="history-section card">
+        <h2>📜 Últimas Rodadas</h2>
+        <div id="historyList"></div>
+      </div>
+    </div>
+
+    <!-- COLUNA DIREITA: Rodada Atual -->
+    <div class="right-column">
+      <!-- Rodada Atual -->
+      <div id="roundInfo" class="round-info card"></div>
+
+      <!-- Dado 3D -->
+      <div id="diceSection" class="dice-section card" style="display: none;">
+        <h3>🎲 Sortear Equipe Inicial</h3>
+        <div class="dice-container">
+          <div id="dice" class="dice">
+            <div class="dice-face dice-front">1</div>
+            <div class="dice-face dice-back">6</div>
+            <div class="dice-face dice-right">3</div>
+            <div class="dice-face dice-left">4</div>
+            <div class="dice-face dice-top">5</div>
+            <div class="dice-face dice-bottom">2</div>
+          </div>
+        </div>
+        <button id="rollDiceBtn" class="btn btn-primary">🎲 Rolar Dado</button>
+        <div id="diceResult" class="dice-result"></div>
+      </div>
+
+      <!-- Botão Jogar Novamente -->
+      <div id="playAgainSection" class="play-again-section" style="display: none;">
+        <div class="play-again-badge">🎉 Acertou! Jogue novamente!</div>
+        <button id="playAgainBtn" class="btn btn-success">▶️ Jogar Novamente</button>
+      </div>
+
+      <!-- Carta 3D -->
+      <div class="card-container">
+        <div id="bigCard" class="card-flip">
+          <div class="card-face card-front">
+            <div class="card-shimmer"></div>
+            <div class="card-icon">🎭</div>
+            <p>Aguardando...</p>
+          </div>
+          <div class="card-face card-back">
+            <div class="card-category"></div>
+            <div class="card-word"></div>
+            <div class="card-mode"></div>
+            <div class="card-spaces"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Ações -->
+      <div class="actions-section">
+        <button id="startRoundBtn" class="btn btn-primary">▶️ Iniciar Rodada</button>
+        <button id="correctBtn" class="btn btn-success">✓ Acertou</button>
+        <button id="skipBtn" class="btn btn-danger">✗ Pular</button>
+      </div>
+
+      <!-- Timer -->
+      <div id="timerSection" class="timer-section">
+        <div class="timer-bar-container">
+          <div id="timerBar" class="timer-bar"></div>
+        </div>
+        <div id="timerText" class="timer-text"></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Banner de Vitória -->
+  <div id="winnerBanner" class="winner-banner">
+    <div class="winner-content">
+      <h1 id="winnerText">🎉 Vitória!</h1>
+      <p id="winnerSubtext"></p>
+    </div>
+  </div>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="client.js"></script>
+</body>
+</html>

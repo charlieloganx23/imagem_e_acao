@@ -1,0 +1,50 @@
+🎭 IMAGEM & AÇÃO - GUIA RÁPIDO
+================================
+
+📱 COMO ENTRAR:
+1. Acesse: http://localhost:3000
+2. Digite seu nome
+3. Digite o código da sala (5 letras)
+4. Clique em "Entrar na Sala"
+
+🎯 CATEGORIAS:
+P = Pessoa/Lugar/Animal
+O = Objeto
+A = Ação
+D = Difícil (conceitos abstratos)
+L = Lazer (filmes, jogos, comida)
+T = Todos Jogam (FINAL!)
+
+🎮 COMO JOGAR:
+- Equipes jogam alternadamente
+- Desenhista vê a carta e faz desenho/mímica
+- SUA equipe tenta adivinhar (em voz alta!)
+- Acertou? Avança 1 casa!
+- Primeira equipe na casa 30 (T) VENCE!
+
+⚠️ REGRAS IMPORTANTES:
+❌ Desenhista NÃO pode falar
+❌ Desenhista NÃO pode escrever palavras
+✅ Pode desenhar símbolos e imagens
+✅ Pode fazer mímicas (se for o modo)
+✅ Equipe pode dar quantos palpites quiser
+
+⏱️ TEMPO:
+- 60 segundos por rodada (padrão)
+- Barra de progresso mostra tempo restando
+- Quando acaba, passa para próxima equipe
+
+🏆 VITÓRIA:
+Primeira equipe a chegar na casa 30 (categoria T)
+e ACERTAR a palavra final VENCE O JOGO! 🎉
+
+💡 DICAS:
+- Desenhos simples funcionam melhor
+- Use gestos claros nas mímicas
+- Pense em como representar visualmente
+- Conceitos abstratos: use metáforas visuais
+- Categoria P pode ser pessoa, lugar OU animal
+
+📋 CÓDIGO DA SALA: _______
+
+BOA DIVERSÃO! 🎨🎭

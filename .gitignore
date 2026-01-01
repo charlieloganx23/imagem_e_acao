@@ -1,0 +1,10 @@
+node_modules/
+*.log
+npm-debug.log*
+.DS_Store
+.env
+.vscode/
+*.bak
+*_old.js
+*_backup*.js
+*_backup*.html

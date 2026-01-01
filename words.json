@@ -1,0 +1,302 @@
+[
+  {
+    "category": "P",
+    "text": "Michael Jackson",
+    "spaces": 2
+  },
+  {
+    "category": "P",
+    "text": "Paris",
+    "spaces": 1
+  },
+  {
+    "category": "P",
+    "text": "Elefante",
+    "spaces": 2
+  },
+  {
+    "category": "P",
+    "text": "Bombeiro",
+    "spaces": 1
+  },
+  {
+    "category": "P",
+    "text": "Praia",
+    "spaces": 1
+  },
+  {
+    "category": "P",
+    "text": "Girafa",
+    "spaces": 2
+  },
+  {
+    "category": "P",
+    "text": "Shopping",
+    "spaces": 1
+  },
+  {
+    "category": "P",
+    "text": "Médico",
+    "spaces": 1
+  },
+  {
+    "category": "P",
+    "text": "Cachorro",
+    "spaces": 1
+  },
+  {
+    "category": "P",
+    "text": "Cinema",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Guarda-chuva",
+    "spaces": 2
+  },
+  {
+    "category": "O",
+    "text": "Violão",
+    "spaces": 2
+  },
+  {
+    "category": "O",
+    "text": "Óculos",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Escova de dentes",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Telefone",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Relógio",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Livro",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Bola",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Cadeira",
+    "spaces": 1
+  },
+  {
+    "category": "O",
+    "text": "Chave",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Escovar o cabelo",
+    "spaces": 2
+  },
+  {
+    "category": "A",
+    "text": "Andar de bicicleta",
+    "spaces": 2
+  },
+  {
+    "category": "A",
+    "text": "Nadar",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Cozinhar",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Dançar",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Correr",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Pular corda",
+    "spaces": 2
+  },
+  {
+    "category": "A",
+    "text": "Ler",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Dormir",
+    "spaces": 1
+  },
+  {
+    "category": "A",
+    "text": "Pintar",
+    "spaces": 1
+  },
+  {
+    "category": "D",
+    "text": "Democracia",
+    "spaces": 3
+  },
+  {
+    "category": "D",
+    "text": "Inflação",
+    "spaces": 3
+  },
+  {
+    "category": "D",
+    "text": "Ambicioso",
+    "spaces": 3
+  },
+  {
+    "category": "D",
+    "text": "Ressaca",
+    "spaces": 2
+  },
+  {
+    "category": "D",
+    "text": "Fofoca",
+    "spaces": 2
+  },
+  {
+    "category": "D",
+    "text": "Ciúmes",
+    "spaces": 3
+  },
+  {
+    "category": "D",
+    "text": "Paciência",
+    "spaces": 2
+  },
+  {
+    "category": "D",
+    "text": "Nostalgia",
+    "spaces": 3
+  },
+  {
+    "category": "D",
+    "text": "Ansiedade",
+    "spaces": 2
+  },
+  {
+    "category": "D",
+    "text": "Hipocrisia",
+    "spaces": 3
+  },
+  {
+    "category": "L",
+    "text": "Harry Potter",
+    "spaces": 2
+  },
+  {
+    "category": "L",
+    "text": "Frozen",
+    "spaces": 1
+  },
+  {
+    "category": "L",
+    "text": "O Rei Leão",
+    "spaces": 2
+  },
+  {
+    "category": "L",
+    "text": "Star Wars",
+    "spaces": 2
+  },
+  {
+    "category": "L",
+    "text": "Futebol",
+    "spaces": 1
+  },
+  {
+    "category": "L",
+    "text": "Netflix",
+    "spaces": 1
+  },
+  {
+    "category": "L",
+    "text": "Pizza",
+    "spaces": 1
+  },
+  {
+    "category": "L",
+    "text": "Carnaval",
+    "spaces": 2
+  },
+  {
+    "category": "L",
+    "text": "Videogame",
+    "spaces": 1
+  },
+  {
+    "category": "L",
+    "text": "Churrasco",
+    "spaces": 1
+  },
+  {
+    "category": "T",
+    "text": "Amor",
+    "spaces": 1
+  },
+  {
+    "category": "T",
+    "text": "Família",
+    "spaces": 1
+  },
+  {
+    "category": "T",
+    "text": "Felicidade",
+    "spaces": 2
+  },
+  {
+    "category": "T",
+    "text": "Amizade",
+    "spaces": 2
+  },
+  {
+    "category": "T",
+    "text": "Esperança",
+    "spaces": 2
+  },
+  {
+    "category": "T",
+    "text": "Liberdade",
+    "spaces": 2
+  },
+  {
+    "category": "T",
+    "text": "Paz",
+    "spaces": 1
+  },
+  {
+    "category": "T",
+    "text": "Sonho",
+    "spaces": 1
+  },
+  {
+    "category": "T",
+    "text": "Vitória",
+    "spaces": 2
+  },
+  {
+    "category": "T",
+    "text": "Trabalho",
+    "spaces": 1
+  }
+]
