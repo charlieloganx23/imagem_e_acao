@@ -1,4 +1,11 @@
-const socket = io();
+// Configuração do backend (localStorage ou fallback)
+const BACKEND_URL = localStorage.getItem('BACKEND_URL') || window.BACKEND_URL || 'http://localhost:3000';
+const socket = io(BACKEND_URL, {
+  transports: ['websocket', 'polling'],
+  reconnection: true,
+  reconnectionDelay: 1000,
+  reconnectionAttempts: 5
+});
 
 let currentRoomCode = null;
 let yourId = null;

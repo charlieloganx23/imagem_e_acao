@@ -3,6 +3,8 @@ node_modules/
 npm-debug.log*
 .DS_Store
 .env
+.env.local
+.env.production
 .vscode/
 *.bak
 *_old.js

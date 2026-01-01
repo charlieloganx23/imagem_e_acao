@@ -32,7 +32,7 @@ Jogo clássico **Imagem & Ação** adaptado para jogar online em família, com d
 
 ## 🚀 Como Usar
 
-### Instalação
+### Instalação Local
 
 ```bash
 # Clone o repositório
@@ -47,6 +47,37 @@ npm start
 ```
 
 O servidor estará rodando em `http://localhost:3000`
+
+### 🌐 Deploy em Produção (Netlify + Railway)
+
+#### Backend (Railway/Render):
+1. Crie conta no [Railway](https://railway.app) ou [Render](https://render.com)
+2. Conecte o repositório GitHub
+3. Configure variáveis de ambiente:
+   ```
+   PORT=3000
+   FRONTEND_URL=https://img-acao.netlify.app
+   ```
+4. Deploy automático gerará URL do backend
+
+#### Frontend (Netlify):
+1. Acesse [Netlify](https://netlify.com)
+2. Conecte o repositório GitHub
+3. Configure: Build command vazio, Publish directory: `.`
+4. Adicione variável de ambiente:
+   ```
+   BACKEND_URL=https://sua-url-railway.railway.app
+   ```
+5. Adicione snippet injection no `<head>`:
+   ```html
+   <script>
+     window.BACKEND_URL = 'https://sua-url-railway.railway.app';
+   </script>
+   ```
+
+**📖 Guia completo**: Veja [DEPLOY.md](DEPLOY.md)
+
+**🔧 Configuração**: Acesse `/config.html` para definir URL do backend
 
 ### Jogando
 
